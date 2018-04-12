@@ -12,7 +12,7 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli.size < 1
-    katz_deli.shift
+    katz_deli.unshift
   end
 end
 
