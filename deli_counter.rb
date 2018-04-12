@@ -1,11 +1,9 @@
 def line(katz_deli)
-  katz_deli = []
-  if katz_deli.size < 1
-    puts "The line is currently empty."
-  elsif katz_deli.size < 4
-    puts "The line is currently #{katz_deli}."
-  elsif katz_deli.size > 4
-    puts "The line is currently #{katz_deli}."
+  new_array = []
+  if katz_deli.size > 0
+    katz_deli.each_with_index do |name, index| 
+      new_array << "#{index+1}. #{name}"
+    end
   end
 end
 
