@@ -11,14 +11,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  if katz_deli.size < 1
-    katz_deli.unshift("#{name}")
-    puts "Welcome, #{name}. You are number 1 in line."
-  elsif katz_deli.size > 1
-    loop do
-
-    end
-    katz_deli.push("#{name}")
+    katz_deli.push(name)
     puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
   end
 end
