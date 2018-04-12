@@ -7,6 +7,5 @@ def line(katz_deli)
     puts "The line is currently #{other_deli}."
   elsif katz_deli > 3
     puts "The line is currently #{another_deli}."
-    
   end
 end
