@@ -4,6 +4,6 @@ def line(katz_deli)
   if katz_deli.size < 1
     puts "The line is currently empty."
   elsif katz_deli.size > 1
-    puts "The line is currently #{other_deli[0], other_deli[1], other_deli[2]}."
+    puts "The line is currently #{katz_deli}."
   end
 end
