@@ -9,3 +9,9 @@ def line(katz_deli)
     puts "The line is currently #{another_deli}."
   end
 end
+
+def take_a_number
+end
+
+def now_serving
+end
