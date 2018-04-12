@@ -15,7 +15,7 @@ def take_a_number(katz_deli, name)
     puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
 end
 
-def now_serving(katz_deli)
+def now_serving(katz_deli, name)
   if katz_deli.size > 0
     katz_deli.unshift
     puts "Currently serving #{name}"
