@@ -4,9 +4,9 @@ def line(katz_deli)
   if katz_deli.size < 1
     puts "The line is currently empty."
   elsif katz_deli.size < 4
-    puts "The line is currently #{other_deli}."
+    puts "The line is currently #{katz_deli}."
   elsif katz_deli.size > 4
-    puts "The line is currently #{another_deli}."
+    puts "The line is currently #{katz_deli}."
   end
 end
 
