@@ -13,6 +13,7 @@ end
 def take_a_number(katz_deli, name)
   if katz_deli < 1
     katz_deli.shift
+  end
 end
 
 def now_serving
