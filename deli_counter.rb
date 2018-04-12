@@ -5,7 +5,7 @@ def line(katz_deli)
       new_array << "#{index+1}. #{name}"
     end
     puts "The line is currently: #{new_array.join(" ")}"
-  else 
+  else
     puts "The line is currently empty."
   end
 end
